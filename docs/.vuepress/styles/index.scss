@@ -1,0 +1,44 @@
+#app {
+  .theme-container {
+    .navbar {
+      .title,
+      a,
+      .external-link-icon,
+      #appearance-switch {
+        color: black;
+      }
+    }
+
+    .page.blog {
+      // padding-top: 0;
+      .blog-hero.fullscreen {
+        // height: 100vh !important;
+        .mask {
+          background: url("/images/wallpaper.png") center center / cover
+            no-repeat !important;
+        }
+        .description {
+          &::after {
+            content: "』";
+            margin-left: 0.15rem;
+          }
+          &::before {
+            content: "『";
+            margin-right: 0.15rem;
+          }
+        }
+      }
+    }
+
+    .footer-wrapper {
+      .footer {
+        margin-right: 0;
+        &::after {
+          content: "|";
+          margin: 0 0.3rem;
+        }
+      }
+      justify-content: center;
+    }
+  }
+}
