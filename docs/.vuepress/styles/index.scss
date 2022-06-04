@@ -99,3 +99,38 @@ $border-styles: 2px solid #777;
     }
   }
 }
+
+// 有序列表样式
+.theme-hope-content {
+  ol {
+    list-style: none;
+    counter-reset: ol-li;
+    li {
+      &::before {
+        content: counter(ol-li);
+        counter-increment: ol-li;
+        display: block;
+        float: left;
+        width: 20px;
+        height: 20px;
+        line-height: 1.7;
+        border-radius: 50%;
+        margin: 4px 8px 0 0;
+        color: #fff;
+        background-color: #ff61b5f2;
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        text-align: center;
+        transition: all 0.5s;
+      }
+      &:hover::before {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+      }
+    }
+  }
+}
