@@ -83,7 +83,7 @@ $border-styles: 2px solid #777;
           border: none;
         }
         &:nth-of-type(even) {
-          background-color: #c4c4c4;
+          background-color: #eee;
         }
         &:last-of-type {
           border-bottom: $border-styles;
@@ -93,7 +93,8 @@ $border-styles: 2px solid #777;
   }
 
   // 让表格可以通过 center 容器实现在 html 页面居中
-  .align-center {
+  .align-center,
+  .align-right {
     table {
       display: inline-block;
     }
