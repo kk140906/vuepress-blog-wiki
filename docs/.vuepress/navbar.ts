@@ -35,5 +35,5 @@ export default navbar([
     prefix: "/blog/other/",
     link: "/blog/other/",
   },
-  { text: "归档", icon: "archive", link: "/guide/" },
+  { text: "归档", icon: "archive", link: "/article/" },
 ]);

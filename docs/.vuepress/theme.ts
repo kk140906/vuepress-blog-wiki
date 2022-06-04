@@ -12,7 +12,7 @@ export default hopeTheme({
     url: "https://blog.nas-kk.top",
   },
 
-  iconAssets: "//at.alicdn.com/t/font_3447507_24sk5l5bstf.css",
+  iconAssets: "//at.alicdn.com/t/font_3447507_sfv0e4wj199.css",
 
   logo: "/images/avatar.png",
 
@@ -31,7 +31,7 @@ export default hopeTheme({
   footer: "逝者如斯夫，不舍昼夜",
   copyright: "Copyright © 2022 kykx, &lt;Email: kkisscj@gmail.com&gt;",
   displayFooter: true,
-
+  lastUpdated: true,
   pageInfo: [
     "Author",
     "Original",
@@ -44,11 +44,11 @@ export default hopeTheme({
   ],
   // 配置详见 https://vuepress-theme-hope.github.io/v2/zh/config/theme/feature.html
   blog: {
-    description: "瞎折腾",
+    description: "什么都会点，什么都不精通，很头疼呐",
     intro: "/intro.html",
     medias: {
-      Wechat: "https://example.com",
-      Gmail: "kkisscj@gmail.com",
+      Wechat: "https://www.nas-kk.top:34443/image/cITj",
+      Gmail: "mailto:kkisscj@gmail.com",
       GitHub: "https://github.com/kk140906/",
       Reddit: "https://example.com",
       Steam: "https://steamcommunity.com/profiles/76561198089478689/",
@@ -91,11 +91,14 @@ export default hopeTheme({
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },
     },
-    pwa: {
-      favicon: "/images/favicon.png",
-      cacheHTML: true,
-      cachePic: true,
-      update: "hint",
-    },
+    components: ["PDF", "Badge", "CodePen", "FontIcon", "StackBlitz"],
+
+    // 不再启用 PWA
+    // pwa: {
+    //   favicon: "/images/favicon.png",
+    //   cacheHTML: true,
+    //   cachePic: true,
+    //   update: "hint",
+    // },
   },
 });

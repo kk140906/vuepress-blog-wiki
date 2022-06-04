@@ -2,7 +2,7 @@
 title: C++ Primer 5
 index: false
 article: false
-sitemap.exclude: true
+sitemap.exclude: false
 icon: note
 ---
 

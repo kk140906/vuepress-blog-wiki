@@ -1,7 +1,7 @@
 ---
 title: Git
 article: false
-sitemap.exclude: false
+sitemap.exclude: true
 icon: git
 index: false
 ---

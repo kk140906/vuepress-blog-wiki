@@ -42,3 +42,60 @@
     }
   }
 }
+
+// 适配 gruvbox-dark 代码主题的高亮 css
+html[data-theme="light"] {
+  div[class*="language-"] .highlight-line {
+    background: #4c4c4c;
+  }
+  div[class*="language-"][class*="ext-"].line-numbers-mode {
+    &::after {
+      border-right: 1px solid #99999955;
+    }
+  }
+}
+
+$border-styles: 2px solid #777;
+
+.theme-hope-content {
+  table {
+    border: none;
+
+    // 增加列分隔边框
+    // td:not(td:last-of-type),
+    // th:not(th:last-of-type) {
+    //   border-right: $border-styles;
+    // }
+
+    thead {
+      tr {
+        th {
+          border: none;
+        }
+        border-top: $border-styles;
+        border-bottom: $border-styles;
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          border: none;
+        }
+        &:nth-of-type(even) {
+          background-color: #c4c4c4;
+        }
+        &:last-of-type {
+          border-bottom: $border-styles;
+        }
+      }
+    }
+  }
+
+  // 让表格可以通过 center 容器实现在 html 页面居中
+  .align-center {
+    table {
+      display: inline-block;
+    }
+  }
+}

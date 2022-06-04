@@ -1,7 +1,7 @@
 ---
 title: Docker
 article: false
-sitemap.exclude: false
+sitemap.exclude: true
 icon: docker
 index: false
 ---
