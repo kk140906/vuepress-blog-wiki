@@ -1,6 +1,7 @@
 ---
 title: Frontmatter 常用属性
 date: 2022-06-03
+icon: char-f
 category:
   - VuePress
 tag:
