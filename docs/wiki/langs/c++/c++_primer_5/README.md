@@ -61,6 +61,16 @@ icon: note
 ## Part II
 
 - [8. IO 库](chapter8.md)
+  - [8.1 IO 类](chapter8.md/#81-io-类)
+    - [8.1.1 IO 对象无拷贝或赋值](chapter8.md/#811-io-对象无拷贝或赋值)
+    - [8.1.2 条件状态](chapter8.md/#812-条件状态)
+    - [8.1.3 管理输出缓冲](chapter8.md/#813-管理输出缓冲)
+  - [8.2 文件输入输出](chapter8.md/#82-文件输入输出)
+    - [8.2.1 使用文件流对象](chapter8.md/#821-使用文件流对象)
+    - [8.2.2 文件模式](chapter8.md/#822-文件模式)
+  - [8.3 string 流](chapter8.md/#83-string-流)
+    - [8.3.1 使用 istringstream](chapter8.md/#831-使用-istringstream)
+    - [8.3.2 使用 ostringstream](chapter8.md/#832-使用-ostringstream)
 - [9. 顺序容器](chapter9.md)
 - [10. 泛型算法](chapter10.md)
 - [11. 关联容器](chapter11.md)
