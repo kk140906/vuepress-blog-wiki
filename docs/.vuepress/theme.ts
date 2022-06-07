@@ -12,7 +12,7 @@ export default hopeTheme({
     url: "https://blog.nas-kk.top",
   },
 
-  iconAssets: "//at.alicdn.com/t/font_3447507_sfv0e4wj199.css",
+  iconAssets: "//at.alicdn.com/t/font_3447507_wiar32fnu7.css",
 
   logo: "/images/avatar.png",
 

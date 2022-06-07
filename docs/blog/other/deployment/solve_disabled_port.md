@@ -1,6 +1,6 @@
 ---
 title: 解决国内运营商端口封禁问题
-icon: other
+icon: isp
 category:
   - 网站部署
 tag:
@@ -127,7 +127,7 @@ sudo vim /etc/nginx/conf.d/blog.kk9009.com.conf
 ```vim
 server {
   # 服务器监听端口
-  listen 36442 ssl http2;
+  listen 9999 ssl http2;
   # 服务器地址
   server_name: blog.kk9009.com;
   # SSL 证书位置
