@@ -317,7 +317,7 @@ _forward_list_ 是单向链表，因此在添加和删除元素时是在指定�
 <tr style="border: .3px solid #e9e9e9 ;">
 <th rowspan="8"> 顺序容器
 </th>
-<th> <tt>array</tt>
+<th> array
 </th>
 <td colspan="2" style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
 </td>
@@ -326,7 +326,7 @@ _forward_list_ 是单向链表，因此在添加和删除元素时是在指定�
 <td>
 </td></tr>
 <tr style="border: .3px solid #e9e9e9 ;">
-<th rowspan="3"> <tt>vector</tt>
+<th rowspan="3"> vector
 </th>
 <td colspan="2" style="background:#ff9090; color:black; vertical-align: middle; text-align: center;" class="table-no"> 否
 </td>
@@ -349,7 +349,7 @@ _forward_list_ 是单向链表，因此在添加和删除元素时是在指定�
 <td> 于被修改元素或其后
 </td></tr>
 <tr style="border: .3px solid #e9e9e9 ;">
-<th rowspan="2"> <tt>deque</tt>
+<th rowspan="2"> deque
 </th>
 <td rowspan="2" style="background:#ff9090; color:black; vertical-align: middle; text-align: center;" class="table-no"> 否
 </td>
@@ -367,7 +367,7 @@ _forward_list_ 是单向链表，因此在添加和删除元素时是在指定�
 <td> 仅修改中部
 </td></tr>
 <tr style="border: .3px solid #e9e9e9 ;">
-<th> <tt>list</tt>
+<th> list
 </th>
 <td colspan="2" style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes">是
 </td>
@@ -376,7 +376,7 @@ _forward_list_ 是单向链表，因此在添加和删除元素时是在指定�
 <td>
 </td></tr>
 <tr style="border: .3px solid #e9e9e9 ;">
-<th> <tt>forward_list</tt>
+<th> forward_list
 </th>
 <td colspan="2" style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes">是
 </td>
@@ -387,10 +387,10 @@ _forward_list_ 是单向链表，因此在添加和删除元素时是在指定�
 <tr style="border: .3px solid #e9e9e9 ;">
 <th> 关联容器
 </th>
-<th> <tt>set</tt>
-<p><tt>multiset</tt>
-</p><p><tt>map</tt>
-</p><p><tt>multimap</tt>
+<th> set
+<p>multiset
+</p><p>map
+</p><p>multimap
 </p>
 </th>
 <td colspan="2" style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes">是
@@ -402,10 +402,10 @@ _forward_list_ 是单向链表，因此在添加和删除元素时是在指定�
 <tr style="border: .3px solid #e9e9e9 ;">
 <th rowspan="2"> 无序关联容器
 </th>
-<th rowspan="2"> <tt>unordered_set</tt>
-<p><tt>unordered_multiset</tt>
-</p><p><tt>unordered_map</tt>
-</p><p><tt>unordered_multimap</tt>
+<th rowspan="2"> unordered_set
+<p>unordered_multiset
+</p><p>unordered_map
+</p><p>unordered_multimap
 </p>
 </th>
 <td style="background:#ff9090; color:black; vertical-align: middle; text-align: center;" class="table-no"> 否
