@@ -169,13 +169,13 @@ $border-styles: 2px solid #777;
       transition: all 0.18s ease-out 0.18s;
       background: none;
       opacity: 0;
+      background: url(https://www.nas-kk.top:34443/images/2021/02/21/882772A3-4432-4CA4-ABF1-5F60327324AB.th.jpg)
+        no-repeat;
+      background-size: cover;
     }
 
     &:hover::after {
       opacity: 1;
-      background: url(https://www.nas-kk.top:34443/images/2021/02/21/882772A3-4432-4CA4-ABF1-5F60327324AB.th.jpg)
-        no-repeat;
-      background-size: cover;
     }
   }
 }

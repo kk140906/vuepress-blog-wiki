@@ -47,7 +47,7 @@ export default hopeTheme({
     description: "什么都会点，什么都不精通，很头疼呐",
     intro: "/intro.html",
     medias: {
-      Wechat: "https://www.nas-kk.top:34443/image/cITj",
+      Wechat: "javascript:void(0)",
       Gmail: "mailto:kkisscj@gmail.com",
       GitHub: "https://github.com/kk140906/",
       Reddit: "https://example.com",
@@ -69,7 +69,7 @@ export default hopeTheme({
     // https://vuepress-theme-hope.github.io/v2/zh/guide/feature/comment.html#waline
     // https://waline.js.org/guide/get-started.html#leancloud-%E8%AE%BE%E7%BD%AE-%E6%95%B0%E6%8D%AE%E5%BA%93
     comment: {
-      type: "waline",
+      provider: "Waline",
       emoji: [
         "https://unpkg.com/@waline/emojis@1.0.1/alus",
         "https://unpkg.com/@waline/emojis@1.0.1/tieba",
