@@ -2,6 +2,7 @@
 title: C++ Primer 5
 index: false
 article: false
+order: 0
 sitemap.exclude: false
 icon: note
 ---

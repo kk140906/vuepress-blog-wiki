@@ -10,6 +10,7 @@ tag:
   - const 限定
   - 类型推断
 article: false
+order: 2
 ---
 
 ## 2.1 基本内置类型

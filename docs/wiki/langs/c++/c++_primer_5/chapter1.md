@@ -6,6 +6,7 @@ category:
   - C++
 tag:
   - C++
+order: 1
 ---
 
 这是一篇在 C++ Primer Edition 5 学习过程中的简单笔记。Part I 和 Part II 主要介绍 C++ 中基本的语言特性和标准库的一些内容，Part III 侧重于面向对象等，Part IV 侧重于异常处理等。
