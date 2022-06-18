@@ -154,6 +154,16 @@ order: 1
     - [11.3.5 访问元素](chapter11.md/#_11-3-5-访问元素)
   - [11.4 无序容器](chapter11.md/#_11-4-无序容器)
 - [12. 动态内存](chapter12.md)
+  - [12.1 动态内存与智能指针](chapter12.md/#_12-1-动态内存与智能指针)
+    - [12.1.1 shared_ptr 类](chapter12.md/#_12-1-1-shared-ptr-类)
+    - [12.1.2 直接管理内存](chapter12.md/#_12-1-2-直接管理内存)
+    - [12.1.3 shared_ptr 和 new 结合使用](chapter12.md/#_12-1-3-shared-ptr-和-new-结合使用)
+    - [12.1.4 智能指针和异常](chapter12.md/#_12-1-4-智能指针和异常)
+    - [12.1.5 unique_ptr](chapter12.md/#_12-1-5-unique-ptr)
+    - [12.1.6 weak_ptr](chapter12.md/#_12-1-6-weak-ptr)
+  - [12.2 动态数组](chapter12.md/#_12-2-动态数组)
+    - [12.2.1 new 和数组](chapter12.md/#_12-2-1-new-和数组)
+    - [12.2.2 allocator 类](chapter12.md/#_12-2-2-allocator-类)
 
 ## Part III
 
