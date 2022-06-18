@@ -13,9 +13,9 @@ export default defineUserConfig({
   // shouldPrefetch: false,
   plugins: [
     docsearchPlugin({
-      appId: "5T2BJPD7VM",
-      apiKey: "8a19be13d1b0953d30725ef3e4417f8c",
-      indexName: "blog",
+      appId: "1XSED3GC9Q",
+      apiKey: "1e0441a7dcf602e31216ac4ba6305cac",
+      indexName: "kk9009",
     }),
   ],
 });
