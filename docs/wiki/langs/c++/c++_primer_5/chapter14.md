@@ -103,18 +103,18 @@ string s3 = "world" + s1;
 ```cpp
 // 重载输出运算符,假设Sales_data类具有公有成员price
 ostream& operator>>(ostream &os,const Sales_data &item){
-    os >> item.price;
-    return os;
+  os >> item.price;
+  return os;
 }
 
 // 重载输入运算符,假设Sales_data类具有公有成员price
 istream& operator>>(istream &is,Sales_data &item){
-    double price;
-    is >> price;
-    if(is) {
-        item.price = price;
-    }
-    return is;
+  double price;
+  is >> price;
+  if(is) {
+      item.price = price;
+  }
+  return is;
 }
 ```
 
@@ -128,9 +128,9 @@ istream& operator>>(istream &is,Sales_data &item){
 
 ```cpp
 Sales_data operator+(const Sales_data &lhs,const Sales_data &rhs){
-    Sales_data sum = lhs;
-    sum += rhs;
-    return sum;
+  Sales_data sum = lhs;
+  sum += rhs;
+  return sum;
 }
 ```
 
@@ -159,8 +159,8 @@ vs = {"a","b","c"};
 
 // vector内部定义的其他赋值运算符基本定义如下StrVec类所示：
 class StrVec {
-  public:
-    StrVec & operator=(std::initialize_list<std::string> &il);
+public:
+  StrVec & operator=(std::initialize_list<std::string> &il);
 };
 ```
 
@@ -172,9 +172,9 @@ class StrVec {
 
 ```cpp
 class StrVec{
-  public:
-    std::string & operator[](std::size_t n);
-    const std::strng & operator[](std::size_t n) const;
+public:
+  std::string & operator[](std::size_t n);
+  const std::strng & operator[](std::size_t n) const;
 };
 ```
 
@@ -189,20 +189,20 @@ class StrVec{
 
 ```cpp
 class StrBlobPtr{
-  public:
-    StrBlobPtr & operator++(){
-        ++curr_pos;
-        return *this;
-    }
-    // int 形参通常不被实际使用
-    StrBlobPtr operator++(int){
-        auto ret = *this;
-        // 调用前置递增运算符
-        ++*this;
-        return ret;
-    }
-  private:
-    int curr_pos;
+public:
+  StrBlobPtr & operator++(){
+    ++curr_pos;
+    return *this;
+  }
+  // int 形参通常不被实际使用
+  StrBlobPtr operator++(int){
+    auto ret = *this;
+    // 调用前置递增运算符
+    ++*this;
+    return ret;
+  }
+private:
+  int curr_pos;
 };
 ```
 
@@ -218,12 +218,12 @@ class StrBlobPtr{
 ```cpp
 // 定义一个类Ptr
 class Ptr{
-  public:
-    static int a;
-    Ptr* operator->(){
-        std::cout << "调用重载函数operator->()" << std::endl;
-        return this;
-    }
+public:
+  static int a;
+  Ptr* operator->(){
+    std::cout << "调用重载函数operator->()" << std::endl;
+    return this;
+  }
 };
 
 // 假设类Ptr是最内层的一个类，在主函数定义一个Ptr对象去访问类中静态成员对象a
@@ -251,7 +251,7 @@ std::cout << p1->a << std::endl;
 // 假设定义一个类，可以返回给定整型变量的绝对值
 struct absInt{
   int operator()(const int i) const {
-      return i < 0 ? -i : i;
+    return i < 0 ? -i : i;
   }
 };
 // 那么对absInt类对象的使用就可以像函数调用一样
@@ -273,7 +273,7 @@ auto tmp = [](const int i,const int j) -> bool {return i < j;};
 // 其等价的类定义如下
 struct Less{
   bool operator()(const int i, const int j){
-      return i < j;
+    return i < j;
   }
 };
 
@@ -297,8 +297,8 @@ public:
   // 通过构造函数捕获局部变量的值
   Less(const std::string &str) : s(str) {}
   bool operator()(const int i, const int j){
-      std::cout << s << std::endl;
-      return i < j;
+    std::cout << s << std::endl;
+    return i < j;
   }
 private:
   std::string s;
@@ -567,13 +567,13 @@ f4(10);
 ```cpp
 class SmallInt{
     // 重载+运算符
-  friend operator+(const SmallInt &, const SmallInt &);
-  public:
-    SmallInt(int = 0);
-    // class类型转换为int类型
-    operator int() const {return val;}
-  private:
-    std::size_t val;
+friend operator+(const SmallInt &, const SmallInt &);
+public:
+  SmallInt(int = 0);
+  // class类型转换为int类型
+  operator int() const {return val;}
+private:
+  std::size_t val;
 };
 
 SmallInt s1, s2;

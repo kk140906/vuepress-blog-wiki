@@ -347,7 +347,7 @@ std::cout << show(vi.begin()) << std::endl;
 std::cout << show(vs.begin()) << std::endl;
 ```
 
-有时我们无法直接获得所需的类型，可以使用标准库定义在 _type_traits_ 头文件中的“类型转换模板”，对目标进行类型转换从而获取到相应的类型。例如对一个左值引用对象 _int &_ 进行 "remove<spca>\_</spca>reference" 操作可以获取引用对象的原始类型 _int_，标准库类似的类型转换模板主要有以下几个：
+有时我们无法直接获得所需的类型，可以使用标准库定义在 _type_traits_ 头文件中的“类型转换模板”，对目标进行类型转换从而获取到相应的类型。例如对一个左值引用对象 _int &_ 进行 "remove<span>\_</span>reference" 操作可以获取引用对象的原始类型 _int_，标准库类似的类型转换模板主要有以下几个：
 
 :::center
 
